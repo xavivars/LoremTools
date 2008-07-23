@@ -3,7 +3,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>lorem@xavi.infobenissa.com</em:id>
-		<em:version>0.2.5</em:version>
+		<em:version>1.0</em:version>
 		<em:type>2</em:type>
 		<!-- Target Application this extension can install into,
                    with minimum and maximum supported versions. -->
@@ -16,11 +16,10 @@
 		</em:targetApplication>
 
 		<!-- Front End MetaData -->
-		<em:name>Lorem2Clipboard</em:name>
-		<em:description>Copia el LoremIpsum al PortaRetalls</em:description>
+		<em:name>LoremTools</em:name>
+		<em:description>Copia el LoremIpsum a diversos llocs</em:description>
 		<em:iconURL>chrome://lorem/content/images/loremLogo.png</em:iconURL>
 		<em:creator>Xavi Ivars i Ribes</em:creator>
-		<em:homepageURL>http://xavi.infobenissa.com/mozilla-les-aplicacions-dinternet/lorem2clipboard/</em:homepageURL>
-		<em:updateURL>http://xavi.infobenissa.com/arxius/lorem-update.rdf</em:updateURL>
+		<em:homepageURL>http://xavi.infobenissa.com/mozilla-les-aplicacions-dinternet/loremTools/</em:homepageURL>
 	</Description>
 </RDF>

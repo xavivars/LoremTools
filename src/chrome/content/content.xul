@@ -3,11 +3,20 @@
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
 	<script type="application/x-javascript" src="chrome://lorem/content/lorem.js" />
+	<menupopup id="loremMenu">
+		<menuitem label="Cut"/>
+		<menuitem label="Copy"/>
+  		<menuitem label="Paste"/>
+	</menupopup>
 	<statusbar id="status-bar">
 		<statusbarpanel id="icon_lorem"
-			onclick="x_lorem_copy();"
+			onclick="loremObject.loremCopy(event,this);"
 			class="statusbarpanel-iconic"
 			insertbefore="statusbar-display"
-			src="chrome://lorem/content/images/lorem.png" />
+			src="chrome://lorem/content/images/lorem.png" 
+			context="loremMenu" />
 	</statusbar>
+
+
 </overlay>
+
