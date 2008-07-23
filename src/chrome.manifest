@@ -1,0 +1,2 @@
+content   lorem   chrome/content/
+overlay   chrome://browser/content/browser.xul   chrome://lorem/content/content.xul

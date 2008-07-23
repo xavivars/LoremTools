@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<overlay id="lorem2clipboard"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://lorem/content/lorem.js" />
+	<statusbar id="status-bar">
+		<statusbarpanel id="icon_lorem"
+			onclick="x_lorem_copy();"
+			class="statusbarpanel-iconic"
+			insertbefore="statusbar-display"
+			src="chrome://lorem/content/images/lorem.png" />
+	</statusbar>
+</overlay>
