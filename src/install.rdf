@@ -20,6 +20,6 @@
 		<em:description>Copia el LoremIpsum a diversos llocs</em:description>
 		<em:iconURL>chrome://lorem/content/images/loremLogo.png</em:iconURL>
 		<em:creator>Xavi Ivars i Ribes</em:creator>
-		<em:homepageURL>http://xavi.infobenissa.com/mozilla-les-aplicacions-dinternet/loremTools/</em:homepageURL>
+		<em:homepageURL>http://xavi.infobenissa.com/mozilla/loremTools/</em:homepageURL>
 	</Description>
 </RDF>
